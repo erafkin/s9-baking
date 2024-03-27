@@ -7,21 +7,11 @@
     justify-content: center;
     display: flex;
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
-.imageComponent{
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center;
-    display: flex;
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -1; // this is optional
-    background-color: white;
-    background-image: url("../assets/Website_Prelim.jpg");
+.image{
+    width: 40%;
+
+
 }
 .wordContainer{
     opacity:100%;
@@ -37,7 +27,7 @@ a{
 }
 .subtitle{
 
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .instaFeedContainer{
